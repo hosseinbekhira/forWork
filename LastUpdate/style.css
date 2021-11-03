@@ -145,7 +145,9 @@ ul {
 
 .section-img-parallex {
   margin-top: 10px;
-  position: relative;
+  position: sticky;
+  top: 0px;
+  left: 0px;
   z-index: 8; }
   .section-img-parallex .cont-img {
     background-image: url("img/parallex-img.jpg");
@@ -318,5 +320,12 @@ ul {
       border-right: 7px solid #ff9c00;
       border-bottom: 7px solid #ff9c00;
       animation: animation-before 2s alternate ease-in-out infinite; }
+
+.section-form {
+  background-color: #ff9c00;
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+  min-height: 1000px; }
 
 /*# sourceMappingURL=style.css.map */
